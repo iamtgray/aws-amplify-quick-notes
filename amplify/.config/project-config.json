@@ -1,17 +1,13 @@
 {
-    "projectName": "quick-notes",
-    "version": "2.0",
-    "frontend": "javascript",
-    "javascript": {
-        "framework": "react-native",
-        "config": {
-            "SourceDir": "/",
-            "DistributionDir": "/",
-            "BuildCommand": "npm run-script build",
-            "StartCommand": "npm run-script start"
-        }
-    },
     "providers": [
         "awscloudformation"
-    ]
+    ],
+    "projectName": "wood-lane",
+    "version": "3.0",
+    "frontend": "android",
+    "android": {
+        "config": {
+            "ResDir": "app/src/main/res"
+        }
+    }
 }
